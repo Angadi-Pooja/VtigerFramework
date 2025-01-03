@@ -10,6 +10,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+//i am pulling this script
 public class FetchingBrowserValuefromPropertiesFile {
 		public static void main(String[] args) throws Throwable {
 			FileInputStream fis = new FileInputStream("./src/test/resources/browser.properties.txt");
